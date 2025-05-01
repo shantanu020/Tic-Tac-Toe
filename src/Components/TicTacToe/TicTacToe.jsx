@@ -25,7 +25,7 @@ const TicTacToe = () => {
     let box9=useRef(null);
     let box_arr=[box1,box2,box3,box4,box5,box6,box7,box8,box9];
     const toggle=(e,index)=>{
-        if(data[index]!=""){
+        if(data[index]!==""){
             return;
         }
         if(lock){
@@ -91,9 +91,11 @@ const TicTacToe = () => {
         // reset the title
         titleRef.current.innerHTML=`Tic Tac Toe In<span> React</span>`;
         // reset the box
-        box_arr.map((box)=>{
+        box_arr.forEach((box)=>{
             box.current.innerHTML="";
         })
+        
+        
     }
   return (
     <div className='container'>
