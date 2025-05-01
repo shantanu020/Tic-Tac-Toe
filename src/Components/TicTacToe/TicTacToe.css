@@ -48,3 +48,62 @@
     padding: 20px;
     height: 50px;
 }
+@media (max-width: 768px) {
+    /* Adjusting title size */
+    .title {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    /* Reset button size for mobile */
+    .reset {
+        width: 200px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+    /* Adjusting board size */
+    .board {
+        height: 450px;
+        width: 450px;
+    }
+
+    /* Box size for mobile */
+    .boxes {
+        height: 120px;
+        width: 120px;
+    }
+
+    /* Adjusting box image */
+    .boxes img {
+        margin: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    .title {
+        font-size: 32px;
+        margin-top: 20px;
+    }
+
+    .reset {
+        width: 180px;
+        height: 70px;
+        font-size: 18px;
+    }
+
+    .board {
+        height: 350px;
+        width: 350px;
+    }
+
+    .boxes {
+        height: 100px;
+        width: 100px;
+    }
+
+    .boxes img {
+        margin: 20px;
+    }
+}
